@@ -4,14 +4,15 @@
    ============================================================ */
 
 :root {
-  --color-bg:      #f5f0e8;
-  --color-surface: #ede5d0;
-  --color-primary: #8b5e3c;
-  --color-accent:  #c4773b;
-  --color-text:    #2d2016;
-  --color-muted:   #6b5744;
-  --color-sage:    #7a8c6e;
-  --color-sage-light: #a8b89a;
+  /* Palette aligned with logo: gold/amber ring + teal hands, earth tone base */
+  --color-bg:      #f5f0e8;   /* warm off-white */
+  --color-surface: #ede5d0;   /* tan card background */
+  --color-primary: #8b5c38;   /* warm brown (nav, buttons) */
+  --color-accent:  #c07b2c;   /* golden amber — echoes the logo's outer ring */
+  --color-text:    #2d2016;   /* dark brown body text */
+  --color-muted:   #6b5744;   /* secondary text */
+  --color-sage:    #4e8882;   /* teal — echoes the logo's handshake icon */
+  --color-sage-light: #7db5b0;
   --color-border:  #d4c9b5;
 
   --font-body: Georgia, 'Times New Roman', serif;
