@@ -2,7 +2,7 @@
 
 **Prepared for:** Portland Free Store Project Team  
 **Date:** July 2025  
-**Author:** James DeVille
+**Author:** Jim Deville
 
 ---
 
