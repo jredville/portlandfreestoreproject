@@ -172,10 +172,9 @@ Jim is happy to continue being that person and to work with the team on updates 
 ## What We Need from the Team
 
 1. **Review the preview site** and share feedback on what looks right and what to change
-2. **Confirm store hours** — the current site shows July 2026 limited hours (select Tuesdays and Saturdays, 10am–2pm). The mockup uses placeholder regular hours; please confirm what to display
-3. **Confirm the fundraising goal** for the donate page thermometer (current site says $20/mo × 50 supporters = rent; is that the number to show?)
-4. **Team photos** for the About page — phone photos are completely fine
-5. **Start the TechSoup application** — the sooner it's submitted, the sooner the discount kicks in (you'll need EIN 33-1296139 and the IRS determination letter)
+2. **Confirm the fundraising goal** for the donate page thermometer (current site says $20/mo × 50 supporters = rent; is that the number to show?)
+3. **Team photos** for the About page — phone photos are completely fine
+4. **Start the TechSoup application** — the sooner it's submitted, the sooner the discount kicks in (you'll need EIN 33-1296139 and the IRS determination letter)
 
 ---
 
@@ -185,7 +184,7 @@ Jim is happy to continue being that person and to work with the team on updates 
 |---|---|---|---|
 | 1 | Review the preview site and share feedback | Team | ASAP |
 | 2 | Submit TechSoup application for Squarespace discount | Team | This week |
-| 3 | Confirm hours, fundraising goal, team photos | Team | Before rebuild |
+| 3 | Confirm fundraising goal, team photos | Team | Before rebuild |
 | 4 | Port design to Squarespace | Jim | After team approval |
 | 5 | Team review of rebuilt Squarespace site | Team | TBD |
 | 6 | Go live | Jim + Team | TBD |
