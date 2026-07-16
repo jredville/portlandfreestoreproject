@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Portland Free Store Project</title>
+  <meta name="description" content="Contact the Portland Free Store Project — find our address, hours, and send us a message.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<nav class="site-nav" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      Portland Free Store
+      <span>Project</span>
+    </a>
+    <button class="nav-hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" role="list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="store-policies.html">Store Policies</a></li>
+      <li><a href="donate.html">Donate</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main id="main">
+
+  <div class="page-hero">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>Questions, partnership inquiries, volunteering, or just saying hi</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid-2" style="align-items:start;gap:3rem">
+
+        <!-- Form -->
+        <div class="contact-form">
+          <h2 style="margin-bottom:0.5rem">Send a Message</h2>
+          <p class="text-muted mb-3">We try to respond within 2–3 business days.</p>
+
+          <div class="notice mb-3">
+            <strong>Setup needed:</strong> This form requires a free <a href="https://formspree.io" target="_blank" rel="noopener">Formspree</a> account. Replace <code>PLACEHOLDER</code> in the form action with your Formspree endpoint ID, then the form will work without any backend.
+          </div>
+
+          <!--
+            TO ACTIVATE THIS FORM:
+            1. Go to formspree.io and create a free account
+            2. Create a new form and copy your endpoint ID (looks like: xabcdefg)
+            3. Replace "PLACEHOLDER" in the action URL below with your ID
+            4. Remove the notice box above
+          -->
+          <form
+            action="https://formspree.io/f/PLACEHOLDER"
+            method="POST"
+            class="contact-form"
+            aria-label="Contact form"
+            novalidate>
+
+            <div class="form-group">
+              <label for="name">Name <span aria-hidden="true">*</span></label>
+              <input type="text" id="name" name="name" required placeholder="Your name" autocomplete="name">
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email <span aria-hidden="true">*</span></label>
+              <input type="email" id="email" name="email" required placeholder="your@email.com" autocomplete="email">
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="What's this about?">
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message <span aria-hidden="true">*</span></label>
+              <textarea id="message" name="message" required placeholder="Tell us what's on your mind..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+
+        <!-- Info -->
+        <div>
+          <h2 style="margin-bottom:1.25rem">Visit Us</h2>
+
+          <div class="card mb-3">
+            <h3 style="margin-bottom:0.75rem">Address &amp; Hours</h3>
+            <p>
+              <strong>5419 NE 42nd Ave</strong><br>
+              Portland, OR 97218
+            </p>
+            <table class="hours-table" style="margin-top:1rem" aria-label="Store hours">
+              <tbody>
+                <tr><td>Monday</td>     <td>Closed</td></tr>
+                <tr><td>Tuesday</td>    <td>10:00 AM – 5:00 PM</td></tr>
+                <tr><td>Wednesday</td>  <td>10:00 AM – 5:00 PM</td></tr>
+                <tr><td>Thursday</td>   <td>10:00 AM – 5:00 PM</td></tr>
+                <tr><td>Friday</td>     <td>Closed</td></tr>
+                <tr><td>Saturday</td>   <td>10:00 AM – 5:00 PM</td></tr>
+                <tr><td>Sunday</td>     <td>10:00 AM – 5:00 PM</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="card mb-3">
+            <h3 style="margin-bottom:0.75rem">Other Ways to Reach Us</h3>
+            <p>
+              <strong>Email:</strong><br>
+              <a href="mailto:portlandfreestoreproject@gmail.com">portlandfreestoreproject@gmail.com</a>
+            </p>
+            <p style="margin-top:0.75rem">
+              <strong>Venmo (donations):</strong><br>
+              @ThePortlandFreeStoreProject
+            </p>
+            <p style="margin-top:0.75rem">
+              <strong>Instagram:</strong><br>
+              <a href="https://www.instagram.com/theportlandfreestoreproject/" target="_blank" rel="noopener">@theportlandfreestoreproject</a>
+            </p>
+            <p style="margin-top:0.75rem">
+              <strong>TikTok:</strong><br>
+              <a href="https://www.tiktok.com/@theportlandfreestoreproject" target="_blank" rel="noopener">@theportlandfreestoreproject</a>
+            </p>
+          </div>
+
+          <!-- Google Maps embed -->
+          <div class="map-embed">
+            <iframe
+              title="Portland Free Store Project location — 5419 NE 42nd Ave, Portland OR 97218"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2793.4!2d-122.594!3d45.553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s5419+NE+42nd+Ave%2C+Portland%2C+OR+97218!5e0!3m2!1sen!2sus!4v1700000000000"
+              allowfullscreen
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+          <p style="font-size:0.82rem;color:var(--color-muted);margin-top:0.5rem">
+            Bus lines 71 and 77 stop nearby. Street parking available.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <h3>Portland Free Store Project</h3>
+        <p>A volunteer-run mutual aid free store serving Northeast Portland since 2020.</p>
+        <p style="margin-top:0.5rem">5419 NE 42nd Ave<br>Portland, OR 97218</p>
+        <p style="margin-top:0.5rem;font-size:0.82rem;opacity:0.6">EIN: 85-XXXXXXX</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/theportlandfreestoreproject/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+          </a>
+          <a href="https://www.tiktok.com/@theportlandfreestoreproject" target="_blank" rel="noopener" aria-label="TikTok">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.78a4.85 4.85 0 0 1-1.01-.09z"/></svg>
+          </a>
+          <a href="mailto:portlandfreestoreproject@gmail.com" aria-label="Email us">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="faq.html">FAQ</a>
+        <a href="store-policies.html">Store Policies</a>
+        <a href="donate.html">Donate</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <a href="https://www.instagram.com/theportlandfreestoreproject/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.tiktok.com/@theportlandfreestoreproject" target="_blank" rel="noopener">TikTok</a>
+        <a href="mailto:portlandfreestoreproject@gmail.com">Email Us</a>
+        <a href="donate.html">Venmo: @ThePortlandFreeStoreProject</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Portland Free Store Project. 501(c)(3) nonprofit.</span>
+      <span>Made with ♥ by volunteers</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
