@@ -507,24 +507,10 @@ p:last-child { margin-bottom: 0; }
 }
 .amount-btn {
   padding: 0.55rem 1.25rem;
-  border: 2px solid var(--color-border);
-  border-radius: var(--radius);
-  background: #fff;
-  font-size: 0.95rem;
-  font-weight: 600;
-  cursor: pointer;
-  color: var(--color-text);
-  transition: border-color 0.15s, background 0.15s;
-}
-.amount-btn:hover,
-.amount-btn.selected {
-  border-color: var(--color-primary);
-  background: var(--color-surface);
-  color: var(--color-primary);
 }
 .frequency-toggle {
   display: flex;
-  border: 2px solid var(--color-border);
+  border: 2px solid var(--color-primary);
   border-radius: var(--radius);
   overflow: hidden;
   width: fit-content;
@@ -533,10 +519,11 @@ p:last-child { margin-bottom: 0; }
 .freq-btn {
   padding: 0.5rem 1.25rem;
   border: none;
-  background: #fff;
+  background: transparent;
   font-size: 0.9rem;
+  font-weight: 600;
   cursor: pointer;
-  color: var(--color-muted);
+  color: var(--color-primary);
   transition: background 0.15s, color 0.15s;
 }
 .freq-btn.active {

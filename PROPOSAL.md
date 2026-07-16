@@ -133,6 +133,42 @@ All updates happen through the Squarespace visual editor — no code, no technic
 
 ---
 
+## Alternative Option: Custom Hosting on Fly.io
+
+For the team's awareness, there is a lower-cost alternative to Squarespace — hosting the custom-designed site on **Fly.io**, a modern on-demand hosting platform. This option is included here for transparency, not as the primary recommendation.
+
+### How It Works
+
+Rather than using Squarespace's editor, the site would be hosted as a static HTML/CSS/JS website (like the preview you're looking at now) on Fly.io's infrastructure. Fly.io spins up a small server only when someone visits the site, which keeps costs very low.
+
+### Estimated Cost
+
+| Item | Monthly Cost |
+|---|---|
+| Fly.io hosting (shared CPU, 256MB RAM) | ~$0–$2/mo |
+| Custom domain (portlandfreestoreproject.org) | ~$1.50/mo (already have this) |
+| **Total** | **Under $5/month** |
+
+Fly.io has a free tier that covers low-traffic nonprofit sites most months — you'd only pay if traffic spikes, and even then it stays well under $5/month.
+
+### The Trade-Off
+
+The catch is that **this option requires working with someone who knows HTML and web technology** to make any content changes — updating hours, adding team photos, editing the FAQ, etc. There's no visual editor like Squarespace.
+
+Jim is happy to continue being that person and to work with the team on updates as needed. If the team is comfortable with that arrangement, this is the most affordable path. If the team wants to be able to make changes independently without any technical help, Squarespace is the better fit.
+
+### Side-by-Side Comparison
+
+| | Squarespace (with TechSoup discount) | Fly.io |
+|---|---|---|
+| Monthly cost | ~$12/mo (Business plan) | Under $5/mo |
+| Content updates | Any volunteer, no tech needed | Requires HTML/tech help |
+| Features | Full Squarespace editor, built-in forms, email campaigns | Whatever we build — full control |
+| Maintenance | Squarespace manages the platform | Jim manages updates |
+| Best for | Team independence | Lowest possible cost |
+
+---
+
 ## What We Need from the Team
 
 1. **Review the preview site** and share feedback on what looks right and what to change

@@ -135,8 +135,12 @@ function initDonationPicker() {
 
   amounts.forEach(btn => {
     btn.addEventListener('click', () => {
-      amounts.forEach(b => b.classList.remove('selected'));
-      btn.classList.add('selected');
+      amounts.forEach(b => {
+        b.classList.remove('selected', 'btn-primary');
+        b.classList.add('btn-outline');
+      });
+      btn.classList.remove('btn-outline');
+      btn.classList.add('btn-primary', 'selected');
     });
   });
 
