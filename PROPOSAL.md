@@ -1,4 +1,4 @@
-# Portland Free Store Project — Website Proposal
+# Portland Free Store Project — Website Redesign Proposal
 
 **Prepared for:** Portland Free Store Project Team  
 **Date:** July 2025  
@@ -8,261 +8,153 @@
 
 ## Summary
 
-The current Squarespace site undersells the organization. The store is beloved, vibrant, and deeply community-rooted — but the website feels sparse and incomplete. This document covers what's working, what's missing, recommended changes, platform options, and how to claim a 50% Squarespace nonprofit discount before making any platform decisions.
+The Portland Free Store Project is doing meaningful, community-rooted work — and the website should reflect that. Right now, the site feels sparse and doesn't tell the story of what makes this store special.
 
-**Recommendation in one sentence:** Get the nonprofit discount first, then preview this mockup with the team, then decide whether to rebuild on Squarespace or switch to GitHub Pages.
+This proposal outlines what's missing from the current site, what a redesigned version would look like, and a clear plan to make it happen — all while **staying on Squarespace** and cutting the monthly cost in half with a nonprofit discount.
 
----
-
-## Current Site Audit
-
-### What's There
-
-- Home page with the org name and a short welcome message
-- Store hours (shown as an image — not readable by search engines or screen readers)
-- Instagram/TikTok links in the footer
-- A basic navigation menu
-- A lavender/purple color palette
-
-### What's Missing
-
-- **A compelling hero section** — no photos, no carousel, no strong opening statement
-- **Real text hours** — the current hours are embedded in an image, which means they don't show up in search results and can't be read by screen readers
-- **An About page** with mission, story, and team
-- **A FAQ page**
-- **A Store Policies page** explaining what you accept and what you don't
-- **A Donate page** with a fundraising goal, Venmo handle, and donor thank-you section
-- **A Contact page** with a form, embedded map, and clear address
-- **Social media section** with TikTok embed and Instagram link
-- **Email signup** for updates and events
-- **A cart icon** in the nav — this is confusing since nothing is for sale; it should be removed
-
-### What's Confusing
-
-- The cart icon in navigation implies e-commerce, which conflicts with the free store mission
-- The lavender color palette doesn't reflect the warm, community-rooted nature of the organization
-- There's no clear CTA (call to action) — visitors don't know whether to come in, donate, or volunteer
+A preview of the new design is available at:  
+👉 **[https://jredville.github.io/portlandfreestoreproject/](https://jredville.github.io/portlandfreestoreproject/)**
 
 ---
 
-## Proposed Changes
+## What's Working on the Current Site
 
-### Design System
+- The org name and a welcome message are in place
+- Instagram and TikTok links are in the footer
+- The site is live and on a custom domain
 
-Replace the lavender palette with warm earth tones that reflect the store's welcoming, handmade, community feel:
+---
 
-| Variable | Value | Usage |
-|---|---|---|
-| Background | `#f5f0e8` | Warm off-white page background |
-| Surface | `#ede5d0` | Card and section backgrounds |
-| Primary | `#8b5e3c` | Buttons, links, headings |
-| Accent | `#c4773b` | Hover states, highlights |
-| Text | `#2d2016` | Body text |
-| Muted | `#6b5744` | Secondary text |
-| Sage | `#7a8c6e` | Subtle accents, success states |
+## What's Missing
 
-### Navigation
+**Things visitors need but can't find:**
 
-- Remove the cart icon entirely
-- Add: Home, About, FAQ, Store Policies, Donate, Contact
-- Sticky nav that stays visible while scrolling
-- Mobile hamburger menu
+- **A real About page** — who runs this, why it exists, what makes it different
+- **FAQ** — "Do I have to pay?" "What can I donate?" are questions every visitor has
+- **Store Policies** — what you accept, what you don't, conduct guidelines
+- **A Donate page** — no clear way to financially support the store
+- **A Contact page with a form and map** — the address exists but there's no easy way to reach the team
+
+**Things that are there but could be better:**
+
+- **Store hours are shown as an image** — this means they don't show up in Google searches and can't be read by screen readers or people using assistive technology. Hours should be real text.
+- **No hero image or carousel** — the homepage doesn't make a strong first impression
+- **The cart icon in the navigation** — this implies the store sells things, which is the opposite of the message. It should be removed.
+- **The lavender color palette** — it's pleasant, but it doesn't convey warmth, community, or mutual aid the way the store actually feels
+
+---
+
+## What the Redesign Looks Like
+
+A preview of every page is available at the link above. Here's what's included:
+
+### New Color Palette
+
+Warm earth tones replace the lavender — think terracotta, warm brown, sage green, and off-white. The feel is welcoming, handmade, and community-rooted rather than corporate.
 
 ### Home Page
 
-- **Hero carousel** with 3–4 slides, auto-advancing, keyboard accessible, pauses on hover
-- **Welcome section** with mission sentence and two CTAs: "Visit Us" and "Support Us"
-- **Store hours as real text** (not an image) — searchable, accessible, easy to update
-- **How It Works** section (3-step visual)
+- **Photo carousel** with 3–4 rotating slides and a strong opening message
+- **Store hours as real text** — easy to update, readable by search engines and screen readers
+- **"How It Works" section** — three simple steps (Come In / Take What You Need / Give What You Can)
 - **Social media section** with TikTok embed and Instagram link
-- **Email signup** section
+- **Email signup** for store updates and events
 
-### Inner Pages
+### Navigation
 
-| Page | What's New |
+- Removed: cart icon
+- Added: About, FAQ, Store Policies, Donate, Contact
+- Works on mobile with a hamburger menu
+
+### New Pages
+
+| Page | What's On It |
 |---|---|
-| About | Mission paragraph, values, team member cards (all visible at once, not a carousel) |
-| FAQ | Accordion-style expandable questions, organized by category |
-| Store Policies | Clear lists of what you accept, what you don't, conduct guidelines |
-| Donate | Fundraiser thermometer, donation amount picker, Venmo handle above the fold, merch section, donor thank-you list |
-| Contact | Contact form (via Formspree), embedded map, hours, email, Venmo |
+| **About** | Mission statement, org values, team member cards |
+| **FAQ** | Click-to-expand questions organized by topic (visiting, donating, volunteering) |
+| **Store Policies** | What you accept, what you don't, shopping and conduct guidelines |
+| **Donate** | Fundraising goal thermometer, Venmo handle front and center, donation amounts, merch, donor thank-you list |
+| **Contact** | Contact form, embedded Google Map, address, email, Venmo, hours |
 
 ---
 
-## Platform Options
+## The Plan: Stay on Squarespace, Cut the Cost in Half
 
-### Option A: Stay on Squarespace (with nonprofit discount)
+### Step 1 — Get the Nonprofit Discount (Do This First)
 
-**Pros:**
-- No migration work
-- Team is already familiar with the editor
-- Built-in hosting, SSL, domain management
-- With nonprofit discount: ~$15/mo instead of ~$30/mo
+Squarespace offers a **50% discount** for verified 501(c)(3) nonprofits through a program called TechSoup. This is free to apply for and takes about 1–5 business days.
 
-**Cons:**
-- Monthly cost (even with discount)
-- Limited customization without paying for business plan
-- Squarespace's Instagram integration requires a connected account and can break when Instagram changes its API
+**How to get it:**
 
-**Best for:** Teams that want a visual editor and don't want to touch code.
+1. **Gather your documents** — you'll need your EIN and your IRS determination letter (the letter that confirmed your 501(c)(3) status).
 
-### Option B: GitHub Pages (this mockup)
+2. **Create a TechSoup account** — go to [techsoup.org](https://www.techsoup.org) and register as a nonprofit. TechSoup is a trusted nonprofit tech resource that verifies eligibility and distributes software discounts.
 
-**Pros:**
-- Free hosting, forever
-- No platform lock-in
-- Full design control
-- Easy to version-control and collaborate on
-- Any volunteer who can edit HTML can maintain it
+3. **Request the Squarespace offer** — once your account is verified, browse TechSoup's offer catalog and request the Squarespace discount token.
 
-**Cons:**
-- No visual editor — changes require editing HTML files
-- No built-in contact form backend (solved with Formspree — free tier)
-- No built-in email signup backend (solved with Mailchimp or similar — free tier)
-- TikTok/Instagram live feeds require third-party widgets
+4. **Apply the discount in Squarespace** — go to your Squarespace account → **Settings → Billing** → enter the TechSoup token.
 
-**Best for:** Teams with at least one volunteer comfortable with HTML, or who want a permanent free solution.
+**What it costs after the discount:**
 
-### Option C: Squarespace with Custom CSS
+| Plan | Regular price | After 50% discount |
+|---|---|---|
+| Personal | ~$16/mo | ~$8/mo |
+| Business | ~$23/mo | ~$12/mo |
 
-Apply the new design system (colors, typography, layout improvements) within Squarespace using their Custom CSS feature, without rebuilding from scratch.
+The Business plan is recommended — it allows custom code blocks (needed for TikTok embeds and a fundraising thermometer widget) and Squarespace's built-in email campaigns.
 
-**Best for:** Teams that want to keep Squarespace but want a significant visual upgrade.
+### Step 2 — Port the New Design to Squarespace
 
----
+Once the team has reviewed the preview site and signed off on the direction, Jim will rebuild the site within Squarespace using the new design — same pages, same structure, same content, but native to the Squarespace editor so the team can maintain it without any technical help.
 
-## Squarespace Nonprofit Discount
+**What gets rebuilt:**
+- All 6 pages (Home, About, FAQ, Store Policies, Donate, Contact)
+- New color palette applied via Squarespace's style editor
+- Real-text store hours (replacing the image)
+- Cart icon removed from navigation
+- Contact form using Squarespace's built-in form block
+- Embedded Google Map on the Contact page
+- TikTok embed and Instagram link on the Home page
+- Email signup connected to Squarespace's Email Campaigns (or Mailchimp)
 
-Squarespace offers a **50% discount on annual plans** for verified 501(c)(3) organizations, through TechSoup.
+### Step 3 — Hand Off to the Team
 
-### Steps
+Once live, all ongoing updates happen through the Squarespace visual editor — no code, no technical knowledge required. Any volunteer can:
 
-1. **Confirm your 501(c)(3) status** — you'll need your EIN and IRS determination letter.
+- Update store hours by clicking on the hours section and typing new times
+- Add or remove FAQ items with the drag-and-drop block editor
+- Update the donation thermometer amounts
+- Post new photos to the carousel
+- Edit any text on any page
 
-2. **Register at TechSoup** — go to [techsoup.org](https://www.techsoup.org) and create a nonprofit account. TechSoup verifies nonprofit status and issues validation tokens to unlock software discounts.
-
-3. **Request the Squarespace offer** — once verified on TechSoup (usually 1–5 business days), browse their offer catalog and request the Squarespace discount token.
-
-4. **Redeem in Squarespace** — go to your Squarespace account → Billing → enter the TechSoup token to apply the 50% discount.
-
-**Cost after discount:** ~$15/month (Business plan) or ~$8/month (Personal plan), billed annually.
-
-**Recommendation:** Do this now regardless of which platform you ultimately choose. The discount pays for itself quickly, and the verification process is worth completing either way.
+Squarespace's support team is also available 24/7 via chat if the team ever gets stuck.
 
 ---
 
-## GitHub Pages Deployment
+## What We Need from the Team
 
-Once the team has previewed and approved the mockup, here's how to publish it live.
+To move forward, we need a few things from the Portland Free Store Project team:
 
-### One-Time Setup
-
-```bash
-# If you haven't already:
-git remote add origin https://github.com/jredville/portlandfreestoreproject.git
-git push -u origin main
-```
-
-### Enable GitHub Pages
-
-1. Go to the GitHub repository: `https://github.com/jredville/portlandfreestoreproject`
-2. Click **Settings** → scroll to **Pages** in the left sidebar
-3. Under **Source**, select **Deploy from a branch**
-4. Branch: `main`, Folder: `/ (root)`
-5. Click **Save**
-6. Your site will be live at: `https://jredville.github.io/portlandfreestoreproject/`
-
-A custom domain (e.g. `portlandfreestoreproject.org`) can be added for free in the same Pages settings panel — you'll need to update the DNS records with your domain registrar.
-
-### Updating the Site
-
-To update a page after the site is live:
-
-1. Edit the HTML file on your computer (e.g., `index.html` to change hours)
-2. Save the file
-3. Run these three commands in Terminal:
-   ```bash
-   git add index.html
-   git commit -m "Update store hours"
-   git push
-   ```
-4. GitHub Pages rebuilds the site automatically, usually within 1–2 minutes.
-
----
-
-## Activating Third-Party Integrations
-
-### Contact Form (Formspree)
-
-1. Go to [formspree.io](https://formspree.io) and create a free account
-2. Click **New Form**, give it a name, and copy the endpoint ID (looks like `xabcdefg`)
-3. In `contact.html`, find the form's `action` attribute and replace `PLACEHOLDER` with your endpoint ID:
-   ```html
-   <form action="https://formspree.io/f/xabcdefg" method="POST">
-   ```
-4. Remove the yellow notice box above the form
-5. The free tier allows 50 submissions/month. Upgrade if needed.
-
-### Email Signup
-
-The email signup form on the homepage currently points to `action="#"` (does nothing). To activate:
-
-1. Create a free [Mailchimp](https://mailchimp.com) or [Buttondown](https://buttondown.email) account
-2. Create a signup form and copy the form action URL they provide
-3. Replace `action="#"` in `index.html` with that URL
-
-### TikTok Embed
-
-To embed a specific TikTok video on the homepage:
-
-1. Find the video on TikTok and click **Share → Embed**
-2. Copy the embed code
-3. In `index.html`, find the TikTok section and replace the placeholder `<blockquote>` with the embed code
-4. Also remove the `data-video-id="REPLACE_WITH_VIDEO_ID"` placeholder attribute
-
----
-
-## Editing Guide for Volunteers
-
-### Update Store Hours
-
-Open `index.html` (or `contact.html` for the hours on the Contact page). Find the `<table class="hours-table">` section and change the text inside the right-hand `<td>` cells:
-
-```html
-<tr><td>Tuesday</td><td>10:00 AM – 5:00 PM</td></tr>
-```
-
-Change the second `<td>` text to whatever the new hours are.
-
-### Update Fundraiser Thermometer
-
-Open `donate.html`. Find the line:
-
-```html
-<div class="thermometer-widget" data-goal="1000" data-current="400"
-```
-
-Change `data-goal` to your monthly fundraising goal and `data-current` to how much has been raised this month. No other changes needed — the thermometer calculates the percentage automatically.
-
-### Update Carousel Slides
-
-Open `index.html`. Each `<div class="carousel-slide">` block contains a heading (`<h1>`), a paragraph (`<p>`), and a button (`<a class="btn">`). Change the text directly — no CSS or JS changes needed.
+1. **Review the preview site** and give feedback on what looks right and what needs to change
+2. **Provide the mission statement** and any other text you'd like on the About page
+3. **Provide team member names, titles, and bios** for the About page (and photos if you have them)
+4. **Confirm the EIN** so it can be included in the footer and on the Donate page
+5. **Start the TechSoup application** — this is the highest-leverage action right now; the sooner it's submitted, the sooner the discount kicks in
+6. **Share any photos** of the store, the team, or the community for the carousel and About page (phone photos are fine)
 
 ---
 
 ## Next Steps
 
-1. [ ] Team reviews this mockup and provides feedback
-2. [ ] Apply for Squarespace nonprofit discount via TechSoup (takes 1–5 days)
-3. [ ] Decide: stay on Squarespace (with new design) or migrate to GitHub Pages
-4. [ ] Fill in real content: mission statement, team bios, real team photos
-5. [ ] Set up Formspree for contact form
-6. [ ] Set up email signup backend (Mailchimp or Buttondown)
-7. [ ] Add real TikTok embed
-8. [ ] Update EIN placeholder (`85-XXXXXXX`) with actual EIN
-9. [ ] If GitHub Pages: push to GitHub and enable Pages in repo settings
-10. [ ] If Squarespace: apply updated design using Custom CSS or rebuild with template
+| # | Action | Who | When |
+|---|---|---|---|
+| 1 | Review the preview site and share feedback | Team | ASAP |
+| 2 | Submit TechSoup application for Squarespace discount | Team | This week |
+| 3 | Gather real content: mission, team bios, photos | Team | Before rebuild |
+| 4 | Port design to Squarespace | Jim | After team approval |
+| 5 | Team review of rebuilt Squarespace site | Team | TBD |
+| 6 | Go live | Jim + Team | TBD |
 
 ---
 
-*This mockup was built with plain HTML, CSS, and JavaScript — no frameworks, no build tools. Any volunteer who can edit text in a file can maintain it.*
+*Preview site built by Jim Deville as a design reference — the final site will live on Squarespace and be maintained by the team using Squarespace's visual editor.*
