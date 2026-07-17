@@ -166,7 +166,7 @@ p:last-child { margin-bottom: 0; }
   object-fit: cover;
   flex-shrink: 0;
 }
-.nav-logo span { display: block; font-size: 0.75rem; font-weight: 400; opacity: 0.85; }
+.nav-logo span { display: none; }
 .nav-links {
   display: flex;
   gap: 0.25rem;
@@ -304,6 +304,12 @@ p:last-child { margin-bottom: 0; }
 .carousel-dot.active {
   background: #fff;
   transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .carousel-slide .slide-content {
+    padding: 2rem 4rem;
+  }
 }
 
 /* Slide backgrounds — real photos with a dark overlay for text legibility */
